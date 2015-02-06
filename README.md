@@ -1,0 +1,2 @@
+# CommentReader
+ニコ生などのコメントをOpenJtalkなどで読み上げるためのコメント管理をします
