@@ -103,7 +103,7 @@ class eatText : std.process.Thread {
   }
 
   bool needToTalk() {
-    if(text.empty || match(text, r"^/(play|cls|/)")) {
+    if(text.empty || match(text, r"^/(play|cls|vote|/)")) {
       writeln("ignoring comment");
       return false;
     }
